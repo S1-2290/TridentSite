@@ -7,8 +7,8 @@ $password = $_POST['passwordInput'];
 
 // Create connection to database
 $server = 'localhost:3306';
-$user = 'silent';
-$pass = '400115ed!@';
+$user = '<ENTER_USERNAME>';
+$pass = '<ENTER_PASSWORD>';
 $db_name = 'trident_site';
 $command_create = "create database trident_site;";
 $insert_command = "INSERT INTO users (firstname, username, email, password, confirmed) VALUES ('$firstname', '$username', '$email', '$password', 'Y')";
