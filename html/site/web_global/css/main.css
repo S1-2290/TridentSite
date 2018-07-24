@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-family: SansationLight;
+    box-sizing: border-box;
+}
+
+input[type=email], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-family: SansationLight;
+    box-sizing: border-box;
+}
+
+input[type=password], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: SansationLight;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    font-family: SansationLight;
+    cursor: pointer;
+}
+
+label[for="first_name"] {
+    font-family: SansationLight;
+    color: white;
+}
+
+label[for="user_name"] {
+    font-family: SansationLight;
+    color: white;
+}
+
+label[for="email_input"] {
+    font-family: SansationLight;
+    color: white;
+}
+
+label[for="password_input"] {
+    font-family: SansationLight;
+    color: white;
+}
+
+input[type=submit]:hover {
+    font-family: SansationLight;
+    background-color: #45a049;
+}
+
+.div_main {
+    border-radius: 5px;
+    background-color: #191919;
+    padding: 15px;
+}
+
+.modal-title {
+    font-family: SansationLight;
+    color: black;
+}
+
+.modal-dialog {
+    background: black;
+}
+
+.modal-body {
+    background: #191919;
+}
+
+.modal-header {
+    background: #191919;
+}
+
+.modal-header h4 {
+    font-family: SansationLight;
+    color: white;
+}
+
+.modal-footer {
+    background: #191919;
+}
+
+.modal-content {
+    background: #191919;
+}
+
+@-webkit-keyframes pulse {to {box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);}}
+@-moz-keyframes pulse {to {box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);}}
+@-ms-keyframes pulse {to {box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);}}
+@keyframes pulse {to {box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);}}
+@font-face {
+    font-family: SansationLight;
+    src: url(sansation_light.woff);
+}

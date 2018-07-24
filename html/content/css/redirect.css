@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+.main_redirect_header {
+    font-family: monospace;
+    color: lightgrey;
+    text-align: center;
+    padding-top: 275px;
+}
